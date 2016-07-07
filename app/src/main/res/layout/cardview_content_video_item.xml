@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/cv_content_video_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="@dimen/rv_margin"
+    android:clickable="true"
+    android:foreground="?selectableItemBackground"
+    app:cardCornerRadius="@dimen/shape">
+
+    <TextView
+        android:id="@+id/content_video_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="@dimen/rv_margin"
+        android:layout_marginEnd="60dp"
+        android:layout_gravity="center_vertical|start"
+        android:singleLine="true"
+        android:textSize="14sp"/>
+
+    <CheckBox
+        android:id="@+id/content_video_item_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginEnd="@dimen/rv_margin"/>
+
+</android.support.v7.widget.CardView>

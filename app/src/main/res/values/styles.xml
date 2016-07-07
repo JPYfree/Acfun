@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/pink_base</item>
+        <item name="colorPrimaryDark">@color/pink_base_dark</item>
+        <item name="colorAccent">@color/pink_base_dark</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <!--ActionMode出现时 覆盖ActionBar-->
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+
+    <!--<style name="AppTheme.NoActionBar">-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    <!--</style>-->
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TranslucentNavigationTheme" parent="AppTheme">
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="progressBarColor">
+        <item name="colorAccent">@color/pink_base</item>
+    </style>
+
+    <style name="ExpandedTitleText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+</resources>
